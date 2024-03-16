@@ -3,6 +3,3 @@ folder programs info
 Topic info
 
 program  || Topics
-1-3         variable shadowing
-4           reference varible
-5-7         constant
