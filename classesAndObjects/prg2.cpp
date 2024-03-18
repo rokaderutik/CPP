@@ -1,5 +1,8 @@
 #include <iostream>
 
+// by default we get public constructor
+// by default class is private
+
 class Player {
     int jerNo = 18;
     std::string name = "Virat";
