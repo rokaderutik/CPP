@@ -3,3 +3,7 @@ folder programs info
 Topic info
 
 program  || Topics
+1           macro
+2           inline
+3-4         function overloading/name mangling
+5-7         call by value, address, reference
