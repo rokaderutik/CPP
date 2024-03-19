@@ -1,0 +1,21 @@
+// #include <iostream>
+
+class Employee {
+    int empId = 101;
+    std::string name = "Rutik";
+
+    public:
+    Employee() {
+        std::cout << "In Employee Constructor" << std::endl;
+    }
+    void setData(int empId, std::string name) {
+        this->empId = empId;
+        this->name = name;
+    }
+    void getInfo() {
+        std::cout << empId << " -- " << name << std::endl;
+    }
+    ~Employee() {
+        std::cout << "In Employee Destructor" << std::endl;
+    }
+};
