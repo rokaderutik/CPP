@@ -1,5 +1,5 @@
-// trying to send data from child constructor to parent constructor, but failed
-// one temporary object created
+// trying to send data from child constructor to parent constructor
+// no temporary object created
 
 #include <iostream>
 
@@ -29,9 +29,7 @@ class Parent {
 class Child : private Parent {
     int z = 30;
     public:
-    Child(int x, int y, int z) {    //1st line here compiler give call to parent no-argument constructor
-        // Parent(); //hidden, add by compiler, just like super()
-        Parent(x, y);    //new tempory object of parent is created
+    Child(int x, int y, int z) : Parent(x, y) {  // or : Parent{x, y}
 
         std::cout << "In child constructor" << std::endl;
         std::cout << "In child this: " << this << std::endl;
