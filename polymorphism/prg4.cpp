@@ -1,7 +1,9 @@
 // primitive and covarient return type in overriding
-// for overriding:
-// method signature should be identical
-// and return type should be identical or covarient
+
+// Rules for overriding:
+//1. method signature should be identical
+//2. return type should be identical or covarient
+//3. constant (see prg7)
 
 // covarient means type of its any parent
 

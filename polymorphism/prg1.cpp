@@ -2,6 +2,11 @@
 // virtual
 // late binding or dynamic binding
 
+// Rules for overriding:
+//1. method signature should be identical
+//2. return type should be identical or covarient
+//3. constant (see prg7)
+
 
 #include <iostream>
 
