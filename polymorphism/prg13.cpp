@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+// please complter this code
+
 // interface or abstract class (more properly it is interface)
 class IParent {
     public:
