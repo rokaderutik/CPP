@@ -19,7 +19,7 @@ int main() {
 
     int z = 50;
     int const * const ptr3 = &z;    //pointer constant, data constant
-    // ptr3 = &y;      //pointer constant - it can change its value
+    // ptr3 = &y;      //pointer constant - it can not change its value
     // *ptr3 = 50;       //data constant - we can not change it using pointer
 
     z = 100;
